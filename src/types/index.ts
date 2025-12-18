@@ -9,7 +9,7 @@ export type ProjectType = {
   imgSrc: string;
   title: string;
   tags: string[];
-  projectLink: string;
+  projectLink?: string;
 };
 
 export type ExperienceType = {
