@@ -73,25 +73,25 @@ const socialLinks: LinksType[] = [
 
 const projectsData: ProjectType[] = [
   {
-    imgSrc: '/images/project-ph-1.jpeg',
+    imgSrc: '/images/estetica-capa.jpg',
     title: 'Full stack music app',
     tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
-    imgSrc: '/images/project-ph-2.jpeg',
+    imgSrc: '/images/capa-vision.jpg',
     title: 'Full stack music app',
     tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
-    imgSrc: '/images/project-ph-3.jpeg',
+    imgSrc: '/images/monoburguer.png',
     title: 'Full stack music app',
     tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
-    imgSrc: '/images/project-ph-4.jpeg',
+    imgSrc: '/images/driveb.jpg',
     title: 'Full stack music app',
     tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
