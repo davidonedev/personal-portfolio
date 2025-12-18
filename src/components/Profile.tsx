@@ -23,22 +23,22 @@ export const Profile = () => {
       <div className="flex flex-col gap-4">
         <div className="flex items-center justify-between gap-x-10">
           <h1 className="text-3xl font-bold">David</h1>
-          <p className="text-sm">UX Designer & Developer</p>
+          <p className="text-sm">UI/UX Designer & Developer</p>
         </div>
         <img
-          src="/dev-foto.jpg"
+          src="/dev-portfolio.png"
           alt="David Alves"
           className="lg:w-96 rounded-2xl object-cover"
         />
 
         <div className="mt-6">
           <p className="text-sm text-neutral-300">Especialista:</p>
-          <p className="text-lg capitalize">UI/UX designer and frontend developer</p>
+          <p className="text-lg capitalize">UI/UX designer & frontend developer</p>
         </div>
         
         <div>
-          <p className="text-sm text-neutral-300">Based in:</p>
-          <p className="text-lg capitalize">Based in Hortolândia, SP</p>
+          <p className="text-sm text-neutral-300">Sou de:</p>
+          <p className="text-lg capitalize">Hortolândia, SP</p>
         </div>
 
         <div className="flex gap-3 pt-2 
@@ -61,7 +61,7 @@ export const Profile = () => {
         </div>
 
         <Button 
-        className="mt-2" 
+        className="mt-2 cursor-pointer" 
         size="lg"
         >
             Let's Work!

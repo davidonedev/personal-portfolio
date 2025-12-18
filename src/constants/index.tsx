@@ -12,7 +12,6 @@ import type {
   ProjectType,
   ServiceType,
   StatsType,
-  TestimonialsType,
   ToolsType,
 } from '@/types';
 
@@ -33,7 +32,6 @@ import {
   Rocket,
   Settings,
   Smartphone,
-  Twitter,
   User,
   Youtube,
 } from 'lucide-react';
@@ -69,16 +67,11 @@ const socialLinks: LinksType[] = [
   {
     icon: Instagram,
     label: 'Instagram',
-    link: '/#',
-  },
-  {
-    icon: Twitter,
-    label: 'Twitter',
-    link: '/#',
+    link: 'https://www.instagram.com/deivaow/?hl=pt-br',
   },
   {
     icon: Youtube,
-    label: 'Youtube',
+    label: 'Linkedin',
     link: '/#',
   },
 ];
@@ -87,63 +80,52 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/project-ph-1.jpeg',
     title: 'Full stack music app',
-    tags: ['API', 'Development'],
+    tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/project-ph-2.jpeg',
     title: 'Full stack music app',
-    tags: ['API', 'Development'],
+    tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/project-ph-3.jpeg',
     title: 'Full stack music app',
-    tags: ['API', 'Development'],
+    tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/project-ph-4.jpeg',
     title: 'Full stack music app',
-    tags: ['API', 'Development'],
+    tags: ['Figma', 'Code'],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
 ];
 
 const education: ExperienceType[] = [
   {
-    year: '2018 – 2020',
-    title: 'Bachelor of Computer Science',
-    institute: 'National University of Technology',
-    desc: 'Focused on front-end development, UI design, and web application architecture.',
+    year: '06/2023 – 12/2025',
+    title: 'Análise e Desenvolvimento de Sistemas',
+    institute: 'Centro Universitário UniMetrocamp Wyden',
+    desc: 'Lorem ipsum',
   },
   {
-    year: '2021 – 2022',
-    title: 'Frontend Development Bootcamp',
-    institute: 'Udemy / Online Course',
-    desc: 'Learned modern JavaScript, React, and responsive UI patterns through real-world projects.',
-  },
-  {
-    year: '2023',
-    title: 'Advanced UI/UX Design Course',
-    institute: 'Design+Code',
-    desc: 'Explored advanced design systems, motion design, and accessibility best practices.',
+    year: '2024 – 2025',
+    title: 'Cursos Online',
+    institute: 'Alura',
+    desc: 'Formação Figma / Formação Design System / Tailwind CSS / React / Javascript / Git e GitHub entre outros...',
   },
 ];
 
 const experience: ExperienceType[] = [
   {
-    year: '2021 – 2022',
-    title: 'Frontend Developer Intern',
-    institute: 'PixelForge Studio',
-    desc: 'Built and optimized responsive websites, collaborating closely with designers and backend teams.',
+    year: '06/2024 – o momento',
+    title: 'UX Designer & Frontend Developer',
+    institute: 'Bosch Brasil',
+    desc: 'Atuando na criação e evolução de interfaces modernas, acessíveis e centradas no usuário. Experiência com Design Systems, prototipação de baixa e alta fidelidade no Figma, reutilização de componentes, manutenção de sistemas e colaboração via Azure, sempre alinhando design, usabilidade e qualidade técnica.',
   },
-  {
-    year: '2022 – Present',
-    title: 'UI Engineer',
-    institute: 'Freelance / Remote Work',
-    desc: 'Designed and developed web interfaces for SaaS startups using React, Tailwind, and Figma.',
-  },
+
 ];
 
 const tools: ToolsType[] = [
@@ -216,42 +198,19 @@ const services: ServiceType[] = [
 
 const statsData: StatsType[] = [
   {
-    number: '30+',
-    label: 'Happy Clients',
-  },
-  {
     number: '05+',
-    label: 'Years Of Experience',
+    label: 'Anos com Design ',
   },
   {
-    number: '50+',
-    label: 'Projects Done',
+    number: '02+',
+    label: 'Desenvolvedor Frontend',
+  },
+  {
+    number: '10+',
+    label: 'Projetos Realizados',
   },
 ];
 
-const testimonials: TestimonialsType[] = [
-  {
-    name: 'Alex Tomato',
-    role: 'Brand Manager at Instant Design',
-    image: 'https://randomuser.me/api/portraits/men/32.jpg',
-    text: 'Working with David was an absolute pleasure. His attention to detail, creative insights, and ability to translate complex ideas into stunning visuals truly set him apart. He consistently went above and beyond to ensure the project exceeded expectations.',
-    link: '#',
-  },
-  {
-    name: 'Sara Bloom',
-    role: 'Founder at Bloom Agency',
-    image: 'https://randomuser.me/api/portraits/women/65.jpg',
-    text: 'David brought my brand vision to life better than I could have imagined. He is not only professional and highly skilled but also incredibly responsive and collaborative. Every aspect of the project was handled with precision and creativity.',
-    link: '#',
-  },
-  {
-    name: 'John Park',
-    role: 'CEO at PixelFlow',
-    image: 'https://randomuser.me/api/portraits/men/45.jpg',
-    text: 'From UI/UX design to front-end implementation, David handled every detail flawlessly. His problem-solving skills, innovative approach, and dedication made the entire process smooth and enjoyable. I would highly recommend him for any design-driven project.',
-    link: '#',
-  },
-];
 
 export {
   socialLinks,
@@ -262,5 +221,4 @@ export {
   services,
   navLinks,
   statsData,
-  testimonials,
 };
