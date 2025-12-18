@@ -27,7 +27,6 @@ import {
   Instagram,
   Layers,
   Mail,
-  MessageCircle,
   Palette,
   Rocket,
   Settings,
