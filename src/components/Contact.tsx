@@ -65,8 +65,8 @@ return (
     id="contact"
   >
     <SectionHeader
-      subtitle="Contact"
-      title={`Let's make Something awesome together!`}
+      subtitle="Contato"
+      title={`Entre em contato comigo`}
     />
 
     <Form {...form}>

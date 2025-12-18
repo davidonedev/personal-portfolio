@@ -50,11 +50,6 @@ const navLinks: LinksType[] = [
     icon: Settings,
   },
   { label: 'Resume', link: '#resume', icon: FileText },
-  {
-    label: 'Reviews',
-    link: '#testimonials',
-    icon: MessageCircle,
-  },
   { label: 'Contact', link: '#contact', icon: Mail },
 ];
 
@@ -165,33 +160,33 @@ const tools: ToolsType[] = [
 
 const services: ServiceType[] = [
   {
-    title: 'Brand Identity',
-    desc: 'I craft modern visual identities that help brands stand out through strong typography, colors, and minimal design.',
-    projects: '32 Projects',
+    title: 'Identidade Visual',
+    desc: 'Desenvolvo identidades visuais estratégicas e inovadoras, criando soluções que fortalecem a presença e a comunicação de marcas de maneira impactante e memorável.',
+    projects: '2 Anos de Experiência',
     icon: <Palette className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'UI/UX Design',
-    desc: 'Designing clean, intuitive, and user-friendly interfaces that improve user experience and boost conversions.',
-    projects: '47 Projects',
+    title: 'UX Design',
+    desc: 'Desenvolvo experiências digitais centradas no usuário, otimizando toda a jornada com design funcional, prototipação e estética para criar uma interação fluida e memorável.',
+    projects: '2 Anos de Experiência',
     icon: <Layers className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Web Development',
-    desc: 'Building high-performance, SEO-friendly websites using Next.js, Tailwind, and modern web technologies.',
-    projects: '58 Projects',
+    title: 'Desenvolvedor Web',
+    desc: 'Desenvolvo soluções web responsivas, criando interfaces funcionais e otimizadas, focando na experiência do usuário, performance e acessibilidade em todas as plataformas.',
+    projects: '2 Anos de Experiência',
     icon: <Globe className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Mobile App Design',
-    desc: 'Creating pixel-perfect app interfaces optimized for both iOS and Android devices with smooth usability.',
-    projects: '21 Projects',
+    title: 'Photoshop',
+    desc: 'Crio designs visualmente impactantes no Photoshop, desenvolvendo soluções criativas e refinadas para atender às necessidades específicas de cada projeto.',
+    projects: '5 Anos de Experiência',
     icon: <Smartphone className='h-6 w-6 text-green-400' />,
   },
   {
-    title: 'Product Launch Strategy',
-    desc: 'Helping startups prepare their digital products for launch with design systems, marketing pages, and assets.',
-    projects: '15 Projects',
+    title: 'Figma',
+    desc: 'Desenvolvo interfaces digitais no Figma, criando protótipos interativos e soluções de design que garantem uma experiência de usuário intuitiva e eficiente.',
+    projects: '2 Anos de Experiência',
     icon: <Rocket className='h-6 w-6 text-green-400' />,
   },
 ];

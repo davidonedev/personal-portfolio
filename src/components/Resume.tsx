@@ -49,10 +49,8 @@ export const Resume = () => {
         variants={fadeUp} 
         className="mt-4 text-neutral-300"
         >
-            There are many variations of passages of Lorem Ipsum available, 
-            but the majority have suffered alteration in some form, by 
-            injected humour, or randomised words which don't look even 
-            slightly believable.
+            Resumo das minhas experiências, formações e cursos ao longo dos anos 
+            na área de design e desenvolvimento de interfaces.
         </motion.p>
 
         <div className="grid gap-x-10 my-16 md:grid-cols-2">
@@ -90,12 +88,12 @@ export const Resume = () => {
             </motion.div>
         </div>
 
-        <div className="my-16">
+        <div className="my-24">
             <motion.h2 
                 variants={fadeUp} 
-                className="text-3xl font-semibold mb-8 capitalize"
+                className="text-3xl font-semibold mb-8"
                 >
-                My favorite tools
+                Experiência com Ferramentas
             </motion.h2>
 
             <motion.div
