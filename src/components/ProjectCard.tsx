@@ -21,7 +21,7 @@ import { fadeUp } from "@/lib/animation";
 
 import type { ProjectType } from "@/types";
 
-export const ProjectCard = ({ imgSrc, projectLink, tags, title, } : ProjectType ) => {
+export const ProjectCard = ({ imgSrc, tags, title, } : ProjectType ) => {
     return (
         <motion.div 
         variants={fadeUp}
