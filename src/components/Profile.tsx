@@ -26,7 +26,7 @@ export const Profile = () => {
           <p className="text-sm">UI/UX Designer & Developer</p>
         </div>
         <img
-          src="/dev-portfolio.png"
+          src="/dev-portfolio.jpg"
           alt="David Alves"
           className="lg:w-96 rounded-2xl object-cover"
         />

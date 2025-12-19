@@ -20,7 +20,7 @@ import type {
  */
 import {
   Briefcase,
-  Facebook,
+  Github,
   FileText,
   Globe,
   Home,
@@ -32,7 +32,7 @@ import {
   Settings,
   Smartphone,
   User,
-  Youtube,
+  Linkedin,
 } from 'lucide-react';
 
 const navLinks: LinksType[] = [
@@ -54,9 +54,9 @@ const navLinks: LinksType[] = [
 
 const socialLinks: LinksType[] = [
   {
-    icon: Facebook,
-    label: 'Facebook',
-    link: '/#',
+    icon: Linkedin,
+    label: 'Linkedin',
+    link: 'https://www.linkedin.com/in/david-alvesads/',
   },
   {
     icon: Instagram,
@@ -64,9 +64,9 @@ const socialLinks: LinksType[] = [
     link: 'https://www.instagram.com/deivaow/?hl=pt-br',
   },
   {
-    icon: Youtube,
-    label: 'Linkedin',
-    link: '/#',
+    icon: Github,
+    label: 'Github',
+    link: 'https://github.com/davidonedev',
   },
 ];
 
