@@ -66,7 +66,7 @@ return (
   >
     <SectionHeader
       subtitle="Contato"
-      title={`Entre em contato comigo`}
+      title={`Entre em contato`}
     />
 
     <Form {...form}>
@@ -82,7 +82,7 @@ return (
               <FormItem className="w-full">
                 <FormControl>
                   <Input
-                    placeholder="Your name"
+                    placeholder="Seu nome"
                     className="border-0"
                     {...field}
                   />
@@ -99,7 +99,7 @@ return (
               <FormItem className="w-full">
                 <FormControl>
                   <Input
-                    placeholder="Company name"
+                    placeholder="Nome da empresa"
                     className="border-0"
                     {...field}
                   />
@@ -117,7 +117,7 @@ return (
                 <FormControl>
                   <Input
                   type="email"
-                    placeholder="you@example.com"
+                    placeholder="exemplo@gmail.com"
                     className="border-0"
                     {...field}
                   />
@@ -172,7 +172,7 @@ return (
               <FormItem className="w-full">
                 <FormControl>
                   <Textarea
-                  placeholder="White your message ..."
+                  placeholder="Escreva uma mensagem ..."
                   className="h-36 border-0"
                   { ... field }
                   />
