@@ -19,7 +19,6 @@ import { fadeUp, staggerContainer } from "@/lib/animation";
  */
 
 import { SectionHeader } from "@/components/SectionHeader";
-import { Button } from "@/components/ui/button";
 
 export const About = () => {
   return (
@@ -54,7 +53,6 @@ export const About = () => {
       </motion.p>
 
       <motion.div variants={fadeUp} transition={{ delay: 0.2 }}>
-        {/* <Button className="mt-5">Contact-me</Button> */}
       </motion.div>
     </motion.section>
   );
