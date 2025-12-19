@@ -41,7 +41,7 @@ export const Resume = () => {
         id="resume"
     >
         <SectionHeader 
-        subtitle="Resume" 
+        subtitle="Experiência" 
         title=""
         />
 

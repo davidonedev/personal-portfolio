@@ -36,10 +36,11 @@ export const Profile = () => {
           <p className="text-lg capitalize">UI/UX designer & frontend developer</p>
         </div>
         
-        <div>
+        {/* <div>
           <p className="text-sm text-neutral-300">Sou de:</p>
           <p className="text-lg capitalize">Hortolândia, SP</p>
-        </div>
+        </div> */}
+        
 
         <div className="flex gap-3 pt-2 
         text-neutral-500">
@@ -60,11 +61,12 @@ export const Profile = () => {
             })}
         </div>
 
-        <Button 
+        <Button
+        asChild
         className="mt-2 cursor-pointer" 
         size="lg"
         >
-            Let's Work!
+          <a href="#contact">Entrar em Contato</a>
         </Button>
       </div>
     </aside>

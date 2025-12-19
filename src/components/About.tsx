@@ -35,7 +35,7 @@ export const About = () => {
 
       <motion.p
         variants={fadeUp}
-        className="mt-4 text-neutral-300 text-[20px] md:w-210 2xl:w-250 grid-cols-2"
+        className="mt-4 text-neutral-100 text-[20px] md:w-210 2xl:w-250 grid-cols-2"
       >
           Opa, beleza? Muito bom ver você dando uma olhada por aqui!
           <br />
