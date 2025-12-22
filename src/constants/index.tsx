@@ -74,25 +74,37 @@ const projectsData: ProjectType[] = [
   {
     imgSrc: '/images/estetica-capa.jpg',
     title: 'Full stack music app',
-    tags: ['Figma', 'Code'],
+    tags: [
+  { label: 'Figma', href: 'https://l1nq.com/hHOpq' },
+  { label: 'Code', href: 'https://github.com/davidonedev' },
+],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/capa-vision.jpg',
     title: 'Full stack music app',
-    tags: ['Figma', 'Code'],
+    tags: [
+  { label: 'Figma', href: 'https://figma.com' },
+  { label: 'Code', href: 'https://github.com' },
+],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/monoburguer.png',
     title: 'Full stack music app',
-    tags: ['Figma', 'Code'],
+    tags: [
+  { label: 'Figma', href: 'https://figma.com' },
+  { label: 'Code', href: 'https://github.com' },
+],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
   {
     imgSrc: '/images/driveb.jpg',
     title: 'Full stack music app',
-    tags: ['Figma', 'Code'],
+    tags: [
+  { label: 'Figma', href: 'https://figma.com' },
+  { label: 'Website', href: 'https://driveb.com.br/' },
+],
     projectLink: 'https://musify-5al0.onrender.com/',
   },
 ];

@@ -21,34 +21,39 @@ import { fadeUp } from "@/lib/animation";
 
 import type { ProjectType } from "@/types";
 
-export const ProjectCard = ({ imgSrc, tags, title, } : ProjectType ) => {
-    return (
-        <motion.div 
-        variants={fadeUp}
-        className="relative"
-        >
-            <figure className="overflow-hidden rounded-md">
-            <img 
-                src={imgSrc} 
-                alt={title}
-                className="rounded-md transition 
+export const ProjectCard = ({ imgSrc, tags, title }: ProjectType) => {
+  return (
+    <motion.div variants={fadeUp} className="relative">
+      <figure className="overflow-hidden rounded-md">
+        <img
+          src={imgSrc}
+          alt={title}
+          className="rounded-md transition 
                 duration-500 hover:scale-115 w-full"
-                 />
-            </figure>
+        />
+      </figure>
 
-        <div className="absolute bottom-0 p-2 flex
-        gap-2">
-            {tags.map((tag, i) => (
-                <span 
-                key={i} 
-                className="bg-background hover:bg-primary
-                hover:text-black py-1 px-2 rounded-sm
-                text-sm cursor-pointer"
-                >
-                {tag}
-                </span>
-            ))}
-        </div>
-        </motion.div>
-    );
+      <div
+        className="absolute bottom-0 p-2 flex
+        gap-2"
+      >
+        {tags.map((tag, i) => (
+          <a
+            key={i}
+            href={tag.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={(e) => e.stopPropagation()}
+            className="
+        bg-background hover:bg-primary
+        hover:text-black py-1 px-2
+        rounded-sm text-sm cursor-pointer
+      "
+          >
+            {tag.label}
+          </a>
+        ))}
+      </div>
+    </motion.div>
+  );
 };

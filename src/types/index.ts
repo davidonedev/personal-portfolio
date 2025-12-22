@@ -8,7 +8,10 @@ import type { JSX } from 'react';
 export type ProjectType = {
   imgSrc: string;
   title: string;
-  tags: string[];
+  tags: {
+    label: string;
+    href: string;
+  }[];
   projectLink?: string;
 };
 
