@@ -74,7 +74,7 @@ const projectsData: ProjectType[] = [
     imgSrc: '/images/estetica-capa.jpg',
     title: 'Full stack music app',
     tags: [
-  { label: 'Figma', href: 'https://l1nq.com/hHOpq' },
+  { label: 'Figma', href: 'https://www.figma.com/proto/5zEj2MVURh7bBBwokxDQ5D/Portf%C3%B3lio---Projetos?page-id=2188%3A3232&node-id=2478-9968&viewport=-473%2C284%2C0.25&t=eJSH0531Pc6Uk5yl-1&scaling=min-zoom&content-scaling=fixed' },
   { label: 'Code', href: 'https://github.com/davidonedev' },
 ],
     projectLink: 'https://musify-5al0.onrender.com/',
@@ -92,7 +92,7 @@ const projectsData: ProjectType[] = [
     imgSrc: '/images/monoburguer.png',
     title: 'Full stack music app',
     tags: [
-  { label: 'Figma', href: 'https://figma.com' },
+  { label: 'Figma', href: 'https://www.figma.com/proto/5zEj2MVURh7bBBwokxDQ5D/Portf%C3%B3lio---Projetos?page-id=2264%3A7849&node-id=2494-10189&viewport=212%2C-179%2C0.17&t=0XSKxeSaLjtzFJqA-1&scaling=min-zoom&content-scaling=fixed' },
   { label: 'Code', href: 'https://github.com' },
 ],
     projectLink: 'https://musify-5al0.onrender.com/',
