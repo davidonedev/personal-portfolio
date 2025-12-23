@@ -86,7 +86,7 @@ export const Sidebar = () => {
           </nav>
 
           <div className="mt-30">
-            <p className="pb-2">Socials</p>
+            <p className="pb-2">Redes Sociais</p>
             <div className="flex gap-3 text-neutral-500">
               {socialLinks.map((social, i) => {
                 const Icon = social.icon;

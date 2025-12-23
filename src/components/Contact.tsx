@@ -51,9 +51,28 @@ export const Contact = () => {
     },
   });
 
-const onSubmit = (values: ContactFormValues) => {
-  console.log(values);
+const onSubmit = async (values: ContactFormValues) => {
+  try {
+    const response = await fetch("https://formspree.io/f/xqezgdqg", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(values),
+    });
+
+    if (!response.ok) {
+      throw new Error("Erro ao enviar mensagem");
+    }
+
+    form.reset();
+    alert("Mensagem enviada com sucesso!");
+  } catch (error) {
+    alert("Erro ao enviar. Tente novamente.");
+  }
 };
+
 
 return (
   <motion.section
@@ -118,24 +137,6 @@ return (
                   <Input
                   type="email"
                     placeholder="exemplo@gmail.com"
-                    className="border-0"
-                    {...field}
-                  />
-                </FormControl>
-
-                <FormMessage />
-              </FormItem>
-            )}
-          />
-          <FormField
-            control={form.control}
-            name="phone"
-            render={({ field }) => (
-              <FormItem className="w-full">
-                <FormControl>
-                  <Input
-                  type="tel"
-                    placeholder="Seu telefone"
                     className="border-0"
                     {...field}
                   />

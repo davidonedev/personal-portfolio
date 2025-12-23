@@ -36,20 +36,20 @@ import {
 } from 'lucide-react';
 
 const navLinks: LinksType[] = [
-  { label: 'Home', link: '#hero', icon: Home },
+  { label: 'Informações', link: '#hero', icon: Home },
   {
-    label: 'Projects',
+    label: 'Projetos',
     link: '#projects',
     icon: Briefcase,
   },
-  { label: 'About', link: '#about', icon: User },
+  { label: 'Sobre mim', link: '#about', icon: User },
   {
-    label: 'Services',
+    label: 'Serviços',
     link: '#services',
     icon: Settings,
   },
-  { label: 'Resume', link: '#resume', icon: FileText },
-  { label: 'Contact', link: '#contact', icon: Mail },
+  { label: 'Experiências', link: '#resume', icon: FileText },
+  { label: 'Contato', link: '#contact', icon: Mail },
 ];
 
 const socialLinks: LinksType[] = [
@@ -114,13 +114,13 @@ const education: ExperienceType[] = [
     year: '06/2023 – 12/2025',
     title: 'Análise e Desenvolvimento de Sistemas',
     institute: 'Centro Universitário UniMetrocamp Wyden',
-    desc: 'Lorem ipsum',
+    desc: '',
   },
   {
     year: '2024 – 2025',
     title: 'Cursos Online',
     institute: 'Alura',
-    desc: 'Formação Figma / Formação Design System / Tailwind CSS / React / Javascript / Git e GitHub entre outros...',
+    desc: 'Formação Figma / Formação Design System / Tailwind CSS / React / Javascript / Git e GitHub entre outros.',
   },
 ];
 
@@ -202,20 +202,6 @@ const services: ServiceType[] = [
   },
 ];
 
-const statsData: StatsType[] = [
-  {
-    number: '05+',
-    label: 'Anos com Design ',
-  },
-  {
-    number: '02+',
-    label: 'Desenvolvedor Frontend',
-  },
-  {
-    number: '10+',
-    label: 'Projetos Realizados',
-  },
-];
 
 
 export {
@@ -226,5 +212,4 @@ export {
   tools,
   services,
   navLinks,
-  statsData,
 };
