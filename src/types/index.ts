@@ -34,11 +34,6 @@ export type ToolsType = {
   label: string;
 };
 
-export type StatsType = {
-  number: string;
-  label: string;
-};
-
 export type TestimonialsType = {
   name: string;
   role: string;

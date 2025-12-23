@@ -11,7 +11,6 @@ import type {
   LinksType,
   ProjectType,
   ServiceType,
-  StatsType,
   ToolsType,
 } from '@/types';
 
