@@ -36,19 +36,25 @@ export const About = () => {
         variants={fadeUp}
         className="mt-4 text-neutral-100 text-[20px] md:w-210 2xl:w-250 grid-cols-2"
       >
-          Opa, beleza? Muito bom ver você dando uma olhada por aqui!
+          Opa, beleza? Muito bom ver você por aqui!
           <br />
           <br />
           Me chamo David e, pros mais íntimos, me chamam de <a className="underline decoration-emerald-600 hyphens-manual">Deivão</a>.
           <br />
           <br />
-          Tenho 25 anos, sou formado em Análise e Desenvolvimento de Sistemas e,
-          desde muito novo, sempre fui <a className="underline decoration-emerald-600 hyphens-manual">curioso e proativo</a>. Aos 12 anos já
-          montava e desmontava computadores e fazia desenhos avançados pra minha
-          idade, o que despertou meu interesse pelo design.
+          Tenho 25 anos, me formei recentemente em Análise e Desenvolvimento 
+          de Sistemas, e desde de muito novo sempre fui muito <a className="underline decoration-emerald-600 hyphens-manual">proativo</a> com tudo que me interessava e me despertava <a className="underline decoration-emerald-600 hyphens-manual">curiosidade</a>, 
+          assim foi com a área da tecnologia.
           <br />
           <br />
-          Hoje, unindo design e programação, tenho cada vez mais certeza de que
+          Deis de muito novo eu sempre fui de fazer desenhos incríveis 
+          que pra minha idade era muito avançado, e foi dai 
+          que despertou a minha vontade de desfrutar na área de 
+          design e trazer experiências incríveis pros usuários.
+          <br />
+          <br />
+          Muitas pessoas dizem que sou perfeccionista, mas apenas procuro sempre entregar o meu melhor.
+          Hoje, unindo <a className="underline decoration-emerald-600 hyphens-manual">design e programação</a>, tenho cada vez mais certeza de que
           estou no lugar certo.
       </motion.p>
 

@@ -41,7 +41,7 @@ export const Resume = () => {
         id="resume"
     >
         <SectionHeader 
-        subtitle="Experiência" 
+        subtitle="Trajetória" 
         title=""
         />
 
@@ -50,7 +50,7 @@ export const Resume = () => {
         className="mt-4 text-neutral-300"
         >
             Resumo das minhas experiências, formações e cursos ao longo dos anos 
-            na área de design e desenvolvimento de interfaces.
+            na área de design e desenvolvimento.
         </motion.p>
 
         <div className="grid gap-x-10 my-16 md:grid-cols-2">
